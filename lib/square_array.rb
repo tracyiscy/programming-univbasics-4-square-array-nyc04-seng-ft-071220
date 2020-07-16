@@ -6,6 +6,7 @@ def square_array(array)
     num = array[counter]
     product=num*num
     new_array.push(product)
+    counter+=1
   }
   new_array
 end
