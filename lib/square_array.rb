@@ -3,7 +3,8 @@ def square_array(array)
   counter=0
   new_array=[]
   while counter<array.length{
-    product= array[counter]*array[counter]
+    num = array[counter]
+    product=num*num
     new_array.push(product)
   }
   new_array
